@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BestWeather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Qwigley&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/Users/marina.pr/Desktop/SheCodes+/src/styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/d14aad5c85.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+
+     <div class="box">
+      <div class="container text-center">
+       <div class="row">
+            <div class="col">Kyiv</div>
+            <div class="col">Vinnica</div>
+         <div class="col">Lviv</div>
+          <div class="col">London</div>
+           
+              </div>
+            </div>
+      <br />
+  
+      <br />
+      <form class="search-form" id="search-form">
+        <div class="row">
+          <div class="col-6">
+            <input
+              type="search"
+              placeholder="Type a city.."
+              autofocus="on"
+              autocomplete="off"
+              id="city-input"
+              class="form-control shadow-sm"
+            />
+          </div>
+          <div class="col-3">
+            <input
+              type="submit"
+              value="Search"
+              class="form-control btn btn-primary shadow-sm w-100"
+            />
+          </div>
+          <div class="col-3">
+            <button
+              class="btn btn-success w-100"
+              id="current-location-button"
+            >
+              Current
+            </button>
+          </div>
+        </div>
+      </form>
+     
+      
+      <br />
+      <h2 id="city"></h2>
+      <p id="date"></p>
+      <i class="fa-solid fa-cloud-sun"></i>
+      <br />
+     
+      <div>
+        <span class="currentT" id="currentT"></span
+        ><span>°C</span>
+      </div>
+
+
+      <br />
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            16.07<br />
+            <i class="fa-solid fa-sun-plant-wilt"></i>
+            <br />24°C
+          </div>
+          <div class="col">
+            17.07 <br />
+            <i class="fa-solid fa-cloud-bolt"></i>
+            <br />23°C
+          </div>
+          <div class="col">
+            18.07 <br />
+            <i class="fa-solid fa-cloud-sun"></i>
+            <br />24°C
+          </div>
+
+          <div class="col">
+            19.07 <br />
+            <i class="fa-solid fa-cloud-sun"></i>
+            <br />25°C
+          </div>
+          <div class="col">
+            20.07 <br />
+            <i class="fa-solid fa-cloud-bolt"></i>
+            <br />28°C
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</br>
+<div class="citata">
+  <p  > Look for inspiration in any weather </p>
+</div>
+    <script src="/Users/marina.pr/Desktop/SheCodes+/src/index.js"></script>
+  </body>
+</html>
